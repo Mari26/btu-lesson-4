@@ -1,0 +1,55 @@
+     @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5em;
+            }
+
+            .hero-actions {
+                justify-content: center;
+            }
+            .showcase-content{
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .showcase {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .showcase-images {
+                grid-template-rows: 1fr;
+            }
+
+            .features {
+                flex-direction: column;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .feature-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .feature-item .icon {
+                font-size: 3em;
+               
+            }
+
+            .feature-item .text-content {
+                text-align: center;
+            }
+        }
