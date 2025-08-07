@@ -156,23 +156,25 @@
             justify-content: space-between;
             gap: 30px;
             padding: 50px 0;
-            text-align: center;
+            /* text-align: center; */
         }
 
         .feature-item {
             flex: 1;
-              margin-top:50px;
+            margin-top:50px;
         }
 
         .feature-item .icon {
             font-size: 2em;
-            color: #ff6347;
-            margin-bottom: 10px;
+            background-color: #ff6347;
+            /* margin: auto; */
+            width: 50px;
+            border-radius: 8px;
         }
 
         .feature-item h3 {
             font-size: 1.2em;
-            margin: 0 0 10px 0;
+            margin: 10 0 10px 0;
         }
 
         .feature-item p {
